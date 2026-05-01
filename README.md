@@ -9,7 +9,9 @@ sudo apt-get update && sudo apt-get install cloudflare-warp
 
 # Settings
 warp-cli registration new
+
 warp-cli mode proxy 
+
 warp-cli connect
 
 
