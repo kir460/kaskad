@@ -6,8 +6,10 @@
 
     certbot --nginx -d domen.com
 
-
-
+nano /etc/nginx/sites-available
+listen 443 ssl; # managed by Certbot
+listen 127.0.0.1:8443 ssl;
+nginx -t
 
 
 
