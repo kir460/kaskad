@@ -1,3 +1,4 @@
+# Настройка WARP
 <details>
 <summary>Показать/скрыть</summary>
 # Создать cloudflare gpg key
