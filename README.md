@@ -2,7 +2,9 @@
    
     apt update && apt install nginx certbot python3-certbot-nginx -y
 
+После установки можно выпустить SSL-сертификат командой:
 
+    certbot --nginx -d domen.com
 
 
 
