@@ -1,3 +1,5 @@
+<details>
+<summary>Показать/скрыть</summary>
 # Создать cloudflare gpg key
     curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
 
@@ -13,6 +15,7 @@
    warp-cli mode proxy 
 
    warp-cli connect
+</details>
 
 
 
