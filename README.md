@@ -27,7 +27,7 @@
 Создаём подключение 
 
 <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
-
+Можно включить Sockopt и TCP Fast Open
 
 
 
