@@ -12,6 +12,7 @@
      listen [::]:443 ssl ipv6only=on; # managed by Certbot
      listen 443 ssl; # managed by Certbot
 На
+
      listen 127.0.0.1:8443 ssl;
      nginx -t
 
