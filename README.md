@@ -14,8 +14,12 @@
 На
 
      listen 127.0.0.1:8443 ssl;
-     nginx -t
+Применить
 
+     nginx -t
+Перезагрузить
+
+     systemctl restart nginx
 
 
 
