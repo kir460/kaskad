@@ -1,3 +1,7 @@
+Сгенерировать случайный набор символов с помощью команды:
+
+   openssl rand -base64 32
+
 Обновляем список пакетов, устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
    
     apt update && apt install nginx certbot python3-certbot-nginx -y
