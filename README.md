@@ -6,8 +6,8 @@
 
 Обновление списка пакетов
 
-     sudo apt update -y
-     sudo apt upgrade -y
+    sudo apt update -y
+    sudo apt upgrade -y
 
 # Настройка сайта
 
