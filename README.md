@@ -13,9 +13,10 @@
     certbot --nginx -d domen.com
 
 Открыть документ
-    nano /etc/nginx/sites-available/default
 
+    nano /etc/nginx/sites-available/default
 Заменить 
+
      listen [::]:443 ssl ipv6only=on; # managed by Certbot
      listen 443 ssl; # managed by Certbot
 На
