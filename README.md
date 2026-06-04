@@ -56,6 +56,12 @@
 
     sudo apt install wget curl -y
 
+# Устоновка 3x-ui
+
+Репозиторий разработчика: https://github.com/MHSanaei/3x-ui
+
+    bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+
 Создаём подключение 
 
 <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
