@@ -56,6 +56,7 @@
 Создаём подключение 
 
 <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
+<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/90dc67c5-2ea2-4310-87c3-5ee0ddd602d1" />
 
 Можно включить Sockopt и TCP Fast Open
 
