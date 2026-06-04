@@ -68,6 +68,8 @@
 
 Можно включить Sockopt и TCP Fast Open
 
+<img width="1366" height="391" alt="image" src="https://github.com/user-attachments/assets/b063c39a-49e5-46d5-94c2-2bed77fc1fb3" />
+
 Заменить транспорт
 
 <img width="1366" height="123" alt="image" src="https://github.com/user-attachments/assets/27932b02-91e4-40cd-a21b-2f41171b7e14" />
