@@ -11,7 +11,7 @@
 
 # Настройка сайта
 
-Обновляем список пакетов, устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
+Устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
    
     apt install nginx certbot python3-certbot-nginx -y
 
