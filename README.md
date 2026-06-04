@@ -33,14 +33,6 @@
 
     listen 127.0.0.1:8443 ssl;
 
-Применить
-
-    nginx -t
-
-Перезагрузить
-
-    systemctl restart nginx
-
 Удалить заглушку nginx и добавить сайт
 
     rm /var/www/html/index.nginx-debian.html
@@ -50,7 +42,6 @@
 
     nginx -t
     systemctl restart nginx
-
 
 Установка wget и curl
 
