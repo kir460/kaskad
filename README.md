@@ -4,11 +4,16 @@
 
     openssl rand -base64 32
 
+Обновление списка пакетов
+
+     sudo apt update -y
+     sudo apt upgrade -y
+
 # Настройка сайта
 
 Обновляем список пакетов, устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
    
-    apt update && apt install nginx certbot python3-certbot-nginx -y
+    apt install nginx certbot python3-certbot-nginx -y
 
 После установки можно выпустить SSL-сертификат командой:
 
@@ -35,10 +40,20 @@
 
      systemctl restart nginx
 
-Добавить сайт
+Удалить заглушку nginx и добавить сайт
 
      rm /var/www/html/index.nginx-debian.html
      sudo nano /var/www/html/index.html
+
+Применить, перезагрузить
+
+     nginx -t
+     systemctl restart nginx
+
+
+Установка wget и curl
+
+     sudo apt install wget curl -y
 
 Создаём подключение 
 
