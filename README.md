@@ -25,35 +25,35 @@
 
 Заменить 
 
-     listen [::]:443 ssl ipv6only=on; # managed by Certbot
-     listen 443 ssl; # managed by Certbot
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
 
 На
 
-     listen 127.0.0.1:8443 ssl;
+    listen 127.0.0.1:8443 ssl;
 
 Применить
 
-     nginx -t
+    nginx -t
 
 Перезагрузить
 
-     systemctl restart nginx
+    systemctl restart nginx
 
 Удалить заглушку nginx и добавить сайт
 
-     rm /var/www/html/index.nginx-debian.html
-     sudo nano /var/www/html/index.html
+    rm /var/www/html/index.nginx-debian.html
+    sudo nano /var/www/html/index.html
 
 Применить, перезагрузить
 
-     nginx -t
-     systemctl restart nginx
+    nginx -t
+    systemctl restart nginx
 
 
 Установка wget и curl
 
-     sudo apt install wget curl -y
+    sudo apt install wget curl -y
 
 Создаём подключение 
 
