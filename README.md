@@ -199,7 +199,7 @@ Port 22102
 Выбираем базу данных
 <img width="669" height="164" alt="image" src="https://github.com/user-attachments/assets/441ca161-24b9-4f4d-bbd1-eb3a1b023f67" />
 
-Would you like to customize the Panel Port settings? (If not, a random port will be applied) [y/n]: n
+Panel Port settings? random
 
 
 Создаём подключение 
