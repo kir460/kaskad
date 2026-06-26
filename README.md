@@ -1,10 +1,10 @@
 # Безопасность
 <details>
-<summary>#Поменять hostname</summary>
+<summary>Поменять hostname</summary>
 
     sudo nano /etc/hostname
 
-    sudo nano /etc/hosts
+     sudo nano /etc/hosts
 
     hostnamectl
 
