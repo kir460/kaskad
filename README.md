@@ -119,7 +119,7 @@ Port 22102
 
 Перезапустить
 
-sudo ufw disable && ufw enable
+    sudo ufw disable && ufw enable
 
 Включить, выключить, перезагрузить firewall
 
