@@ -117,11 +117,11 @@ Port 22102
     -A ufw-before-forward -p icmp --icmp-type parameter-problem -j DROP
     -A ufw-before-forward -p icmp --icmp-type echo-request -j DROP
 
-Выключить, включить, перезагрузить firewall
+Включить, выключить, перезагрузить firewall
 
-    sudo ufw disable
     sudo ufw enable
-    sudo ufw reload 
+    sudo ufw disable
+    sudo ufw reload
 
 Перезагрузка
 
