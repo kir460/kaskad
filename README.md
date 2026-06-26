@@ -1,17 +1,19 @@
 # Безопасность
 <details>
-<summary>Поменять hostname/скрыть</summary>
-sudo nano /etc/hostname
+<summary>#Поменять hostname</summary>
 
-sudo nano /etc/hosts
+    sudo nano /etc/hostname
 
-hostnamectl
+    sudo nano /etc/hosts
 
-sudo hostnamectl set-hostname myserver
+    hostnamectl
 
-hostname
+    sudo hostnamectl set-hostname myserver
 
-sudo reboot
+    hostname
+
+    sudo reboot
+
 </details>
 Сгенерировать случайный набор символов с помощью команды:
 
