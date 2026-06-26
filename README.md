@@ -3,15 +3,10 @@
 <summary>Поменять hostname</summary>
 
     sudo nano /etc/hostname
-bkgkyg
     sudo nano /etc/hosts
-jgfjg
     hostnamectl
-jfghjfj
     sudo hostnamectl set-hostname myserver
-ghkghjj
     hostname
-gjhjgj
     sudo reboot
 
 </details>
