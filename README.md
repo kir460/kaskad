@@ -117,15 +117,15 @@ Port 22102
     -A ufw-before-forward -p icmp --icmp-type parameter-problem -j DROP
     -A ufw-before-forward -p icmp --icmp-type echo-request -j DROP
 
+Перезапустить
+
+sudo ufw disable && ufw enable
+
 Включить, выключить, перезагрузить firewall
 
     sudo ufw enable
     sudo ufw disable
     sudo ufw reload
-
-Перезагрузка
-
-     reboot
 
 Проверить статус UFW
 
