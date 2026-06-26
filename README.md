@@ -83,9 +83,71 @@ Port 22102
     sudo systemctl restart ssh
     sudo reboot
 
+# Установка UFW
+
+    sudo apt update
+    sudo apt install ufw
+
+Открыть порты
+
+    sudo ufw allow 22102/tcp #ssh
+    sudo ufw allow 443/tcp #https
+    sudo ufw allow 80/tcp #http
+    sudo ufw allow 20196/tcp #subscribe
+    sudo ufw allow 38777/tcp #pannel
+
+Выключить, включить, перезагрузить firewall
+
+    sudo ufw disable
+    sudo ufw enable
+    sudo ufw reload 
+
+Блокировка ICMP-запросов для предотвращения двустороннего пинга
+
+    sudo nano /etc/ufw/before.rules
+    
+    # ok icmp codes for INPUT
+    -A ufw-before-input -p icmp --icmp-type destination-unreachable -j DROP
+    -A ufw-before-input -p icmp --icmp-type time-exceeded -j DROP
+    -A ufw-before-input -p icmp --icmp-type parameter-problem -j DROP
+    -A ufw-before-input -p icmp --icmp-type echo-request -j DROP
+    -A ufw-before-input -p icmp --icmp-type source-quench -j DROP
+
+    # ok icmp code for FORWARD
+    -A ufw-before-forward -p icmp --icmp-type destination-unreachable -j DROP
+    -A ufw-before-forward -p icmp --icmp-type time-exceeded -j DROP
+    -A ufw-before-forward -p icmp --icmp-type parameter-problem -j DROP
+    -A ufw-before-forward -p icmp --icmp-type echo-request -j DROP
+
+Перезагрузка
+
+     reboot
+
+Проверить статус UFW
+
+    sudo ufw status verbose
+
+Чтобы увидеть все правила UFW:
+
+    sudo ufw show added
+
+Чтобы убедиться, что UFW автоматически запускается при старте системы:
+
+    sudo systemctl is-enabled ufw
+    
+Чтобы включить автозапуск UFW:
+
+    sudo systemctl enable ufw 
+
+Закрыть, удалить старый порт
+
+    sudo ufw deny 22/tcp 
+    sudo ufw delete allow 22102/tcp
+    sudo ufw delete 1
+
 # Настройка сайта
 <details>
-<summary>Показать\скрытьс</summary>
+<summary>Показать\скрыть</summary>
     
 Устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
    
