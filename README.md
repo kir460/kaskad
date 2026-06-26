@@ -95,9 +95,10 @@ Port 22102
 
     sudo ufw allow 22102/tcp #ssh
     sudo ufw allow 443/tcp #https
+    sudo ufw allow 8443/tcp #https
     sudo ufw allow 80/tcp #http
     sudo ufw allow 20196/tcp #subscribe
-    sudo ufw allow 38777/tcp #pannel
+    sudo ufw allow *****/tcp #pannel
 
 Выключить, включить, перезагрузить firewall
 
