@@ -81,6 +81,7 @@ Port 22102
 Перезапуск службы SSH для применения изменений
 
     sudo systemctl restart ssh
+    sudo reboot
 
 # Настройка сайта
 
