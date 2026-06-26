@@ -2,17 +2,17 @@
 <details>
 <summary>#Поменять hostname</summary>
 
-    sudo nano /etc/hostname
+     sudo nano /etc/hostname
 
-    sudo nano /etc/hosts
+sudo nano /etc/hosts
 
-    hostnamectl
+hostnamectl
 
-    sudo hostnamectl set-hostname myserver
+sudo hostnamectl set-hostname myserver
 
-    hostname
+hostname
 
-    sudo reboot
+sudo reboot
 
 </details>
 Сгенерировать случайный набор символов с помощью команды:
