@@ -199,6 +199,9 @@ Port 22102
 Выбираем базу данных
 <img width="669" height="164" alt="image" src="https://github.com/user-attachments/assets/441ca161-24b9-4f4d-bbd1-eb3a1b023f67" />
 
+Would you like to customize the Panel Port settings? (If not, a random port will be applied) [y/n]: n
+
+
 Создаём подключение 
 
 <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
