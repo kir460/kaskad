@@ -2,7 +2,7 @@
 <details>
 <summary>#Поменять hostname</summary>
 
-     sudo nano /etc/hostname
+    sudo nano /etc/hostname
 
 sudo nano /etc/hosts
 
