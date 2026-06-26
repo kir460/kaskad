@@ -84,7 +84,9 @@ Port 22102
     sudo reboot
 
 # Настройка сайта
-
+<details>
+<summary>Показать\скрытьс</summary>
+    
 Устанавливаем NGINX, Certbot, модуль Certbot для автоматической настройки SSL в NGINX
    
     apt install nginx certbot python3-certbot-nginx -y
@@ -120,6 +122,7 @@ Port 22102
 Установка wget и curl
 
     sudo apt install wget curl -y
+</details>
 
 # Устоновка 3x-ui
 
