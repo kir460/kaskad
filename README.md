@@ -1,5 +1,19 @@
 # Безопасность
 <details>
+<summary>Общие</summary>
+
+Диспетчер задач 
+
+    htop
+   
+Обновление списка пакетов
+
+    sudo apt update -y
+    sudo apt upgrade -y
+
+</details>
+
+<details>
 <summary>Поменять hostname</summary>
 
     sudo nano /etc/hostname
@@ -67,11 +81,6 @@ Port 22102
 Перезапуск службы SSH для применения изменений
 
     sudo systemctl restart ssh
-
-Обновление списка пакетов
-
-    sudo apt update -y
-    sudo apt upgrade -y
 
 # Настройка сайта
 
