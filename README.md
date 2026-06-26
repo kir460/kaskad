@@ -4,7 +4,7 @@
 
     sudo nano /etc/hostname
 bkgkyg
-     sudo nano /etc/hosts
+    sudo nano /etc/hosts
 jgfjg
     hostnamectl
 jfghjfj
