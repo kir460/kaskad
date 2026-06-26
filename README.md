@@ -11,12 +11,15 @@
 
 </details>
 
-#  Поменять пароль
-    sudo passwd root
+#  Поменять пароль и ssh ключ
 
 Сгенерировать случайный набор символов с помощью команды:
 
     openssl rand -base64 32
+
+Поменять пароль
+    
+    sudo passwd root
 
 Создание нового пользователя
 
@@ -37,6 +40,35 @@
 Создание директории для хранения SSH-ключей
 
     mkdir -p ~/.ssh
+Открытие файла для добавления публичного ключа
+
+    nano ~/.ssh/authorized_keys
+Вставьте сюда содержимое публичного ключа из PuTTYgen и сохраните файл
+
+Установка корректных прав доступа к директории и файлу ключей
+
+    chmod 700 ~/.ssh
+    chmod 600 ~/.ssh/authorized_keys
+
+Переключение обратно на root (если необходимо)
+
+    exit
+
+Открытие конфигурационного файла SSH для редактирования
+   
+    sudo nano /etc/ssh/sshd_config
+
+Заменить порт
+
+Port 22102
+
+Найдите строку "PermitRootLogin yes" и замените её на "PermitRootLogin no", 
+
+При необходимости измените "PasswordAuthentication yes" на "PasswordAuthentication no"
+
+Перезапуск службы SSH для применения изменений
+
+    sudo systemctl restart ssh
 
 Обновление списка пакетов
 
