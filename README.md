@@ -11,6 +11,9 @@
     sudo apt update -y
     sudo apt upgrade -y
 
+Вход под root:
+    su root(с паролем root), sudo -i (с парлем user)
+
 </details>
 
 <details>
