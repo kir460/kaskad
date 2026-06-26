@@ -3,15 +3,15 @@
 <summary>Поменять hostname</summary>
 
     sudo nano /etc/hostname
-
+.
      sudo nano /etc/hosts
-
+.
     hostnamectl
-
+.
     sudo hostnamectl set-hostname myserver
-
+.
     hostname
-
+.
     sudo reboot
 
 </details>
