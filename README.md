@@ -196,7 +196,7 @@ Port 22102
 
     bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
-Выбираем 2
+Выбираем базу данных
 <img width="669" height="164" alt="image" src="https://github.com/user-attachments/assets/441ca161-24b9-4f4d-bbd1-eb3a1b023f67" />
 
 Создаём подключение 
