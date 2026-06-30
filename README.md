@@ -215,7 +215,18 @@ Panel Port settings? random
 
 <img width="1366" height="123" alt="image" src="https://github.com/user-attachments/assets/27932b02-91e4-40cd-a21b-2f41171b7e14" />
 
+# bbr
 
+Проверить работу на сервере, вводим:
+        
+    sysctl net.ipv4.tcp_congestion_control
+
+Работает - bbr нет - cubik
+
+Включить
+
+    x-ui
+    26
 
 
 
