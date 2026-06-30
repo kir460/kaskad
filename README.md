@@ -243,19 +243,6 @@ Panel Port settings? random
 
 Путь к файлу закрытого ключа сертификата подписки /root/cert/p.kirnetwiz.top/privkey.pem
 
-# Telegram-бот
-<details>
-<summary>Показать/скрыть</summary>
-
-Создаём бота
-@BotFather
-
-ПолучАем id
-@userinfobot
-
-![image](https://github.com/user-attachments/assets/612dc1e8-c923-411b-9745-40f5f389794f)
-</details>
-
 # DNS-over-LESS 
 <details>
 <summary>Показать/скрыть</summary>
@@ -326,7 +313,7 @@ Settings
 </details>
 
 
-# Бэкап и восстановление: Настройки всегда под защитой. 
+# Бэкап и восстановление
 <details>
 <summary>Показать/скрыть</summary>
 
@@ -348,19 +335,32 @@ x-ui Started Successfully
 
 </details>
 
+# Telegram-бот
+<details>
+<summary>Показать/скрыть</summary>
+
+Создаём бота
+@BotFather
+
+ПолучАем id
+@userinfobot
+
+![image](https://github.com/user-attachments/assets/612dc1e8-c923-411b-9745-40f5f389794f)
+</details>
+
 # Тесты
 <details>
 <summary>Показать/скрыть</summary>
 
-# Speedtest c сервера
+Speedtest c сервера
 
     wget -qO- speedtest.artydev.ru | bash
 
-# Speedtest до конкретного сервера
+Speedtest до конкретного сервера
 
     bash <(curl -s https://raw.githubusercontent.com/kir460/3x/main/sped.sh)
 
-# IP.Check.Place: Проверка репутации IP-адреса. Предварительно можно понять "чистоту" IP и пройтись по публичным спискам об IP.
+IP.Check.Place: Проверка репутации IP-адреса. Предварительно можно понять "чистоту" IP и пройтись по публичным спискам об IP.
 
     bash <(curl -Ls IP.Check.Place) -l en
 
