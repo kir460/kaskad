@@ -197,15 +197,14 @@ Port 22102
     bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 
 Выбираем базу данных
+
 <img width="669" height="164" alt="image" src="https://github.com/user-attachments/assets/441ca161-24b9-4f4d-bbd1-eb3a1b023f67" />
 
 Panel Port settings? random
 
-
 Создаём подключение VLESS Reality под свой сайт
 
-<img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
-<img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/90dc67c5-2ea2-4310-87c3-5ee0ddd602d1" />
+<img width="1366" height="392" alt="image" src="https://github.com/user-attachments/assets/a74b5613-1eb3-42db-9993-b6da6c69d6e6" />
 
 Можно включить Sockopt и TCP Fast Open
 
