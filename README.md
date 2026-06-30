@@ -213,8 +213,8 @@ Panel Port settings? random
 
 Заменить транспорт на XHTTP
 
-<img width="778" height="222" alt="image" src="https://github.com/user-attachments/assets/9ef4b09f-be84-400d-8ca9-27c9331d650c" />
-<img width="777" height="377" alt="image" src="https://github.com/user-attachments/assets/88630b5e-90ee-437e-a26c-44a356f7bc8b" />
+<img width="1366" height="212" alt="image" src="https://github.com/user-attachments/assets/98cc2c08-c474-4088-91a8-675dbba257b7" />
+<img width="1366" height="391" alt="image" src="https://github.com/user-attachments/assets/d9db4950-e8a3-464d-ac45-c1a1471eca17" />
 
 
 # bbr
