@@ -243,6 +243,18 @@ Panel Port settings? random
 
 Путь к файлу закрытого ключа сертификата подписки /root/cert/p.kirnetwiz.top/privkey.pem
 
+# Telegram-бот: Удалённое управление сервером, подключениями и мониторингом.
+<details>
+<summary>Показать/скрыть</summary>
+
+Создаём бота
+@BotFather
+
+ПолучАем id
+@userinfobot
+
+![image](https://github.com/user-attachments/assets/612dc1e8-c923-411b-9745-40f5f389794f)
+</details>
 
 # Настройка WARP
 
