@@ -243,7 +243,7 @@ Panel Port settings? random
 
 Путь к файлу закрытого ключа сертификата подписки /root/cert/p.kirnetwiz.top/privkey.pem
 
-# Telegram-бот: Удалённое управление сервером, подключениями и мониторингом.
+# Telegram-бот
 <details>
 <summary>Показать/скрыть</summary>
 
@@ -254,6 +254,18 @@ Panel Port settings? random
 @userinfobot
 
 ![image](https://github.com/user-attachments/assets/612dc1e8-c923-411b-9745-40f5f389794f)
+</details>
+
+# DNS-over-LESS 
+<details>
+<summary>Показать/скрыть</summary>
+    
+    tcp://8.8.8.8
+    tcp://1.1.1.1
+    https://dns.google/dns-query
+    https://cloudflare-dns.com/dns-query
+
+![image](https://github.com/user-attachments/assets/a030b9da-7d78-44a4-b54d-ac86e64ab740)
 </details>
 
 # Port hopping
