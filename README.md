@@ -256,6 +256,36 @@ Panel Port settings? random
 ![image](https://github.com/user-attachments/assets/612dc1e8-c923-411b-9745-40f5f389794f)
 </details>
 
+# Port hopping
+<details>
+<summary>Показать/скрыть</summary>
+1 Открыть диапозон адресов
+
+    sudo ufw allow 30000:30100/tcp
+    sudo ufw allow 30000:30100/udp
+
+2 Проверить что xRay работает на порту 443
+
+3 Настройка Port Hopping через iptables. 
+
+    sudo iptables -t nat -A PREROUTING -p tcp --dport 30000:30100 -j REDIRECT --to-port 443
+    sudo iptables -t nat -A PREROUTING -p udp --dport 30000:30100 -j REDIRECT --to-port 443
+
+4 Сохранение правил iptables
+
+    sudo apt install -y iptables-persistent
+    sudo netfilter-persistent save
+    sudo netfilter-persistent reload
+
+5 Проверка применения правил
+
+    sudo iptables -t nat -L -v -n
+
+6 Убедитесь, что порт 443 слушается:
+
+    sudo lsof -i -P -n | grep LISTEN
+</details>
+
 # Настройка WARP
 
 <details>
