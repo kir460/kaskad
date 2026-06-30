@@ -202,7 +202,7 @@ Port 22102
 Panel Port settings? random
 
 
-Создаём подключение 
+Создаём подключение VLESS Reality под свой сайт
 
 <img width="1366" height="258" alt="image" src="https://github.com/user-attachments/assets/d6bd2218-2a5b-4d93-8fe1-aa957e8fd97a" />
 <img width="1366" height="645" alt="image" src="https://github.com/user-attachments/assets/90dc67c5-2ea2-4310-87c3-5ee0ddd602d1" />
@@ -211,9 +211,11 @@ Panel Port settings? random
 
 <img width="1366" height="391" alt="image" src="https://github.com/user-attachments/assets/b063c39a-49e5-46d5-94c2-2bed77fc1fb3" />
 
-Заменить транспорт
+Заменить транспорт на XHTTP
 
-<img width="1366" height="123" alt="image" src="https://github.com/user-attachments/assets/27932b02-91e4-40cd-a21b-2f41171b7e14" />
+<img width="778" height="222" alt="image" src="https://github.com/user-attachments/assets/9ef4b09f-be84-400d-8ca9-27c9331d650c" />
+<img width="777" height="377" alt="image" src="https://github.com/user-attachments/assets/88630b5e-90ee-437e-a26c-44a356f7bc8b" />
+
 
 # bbr
 
