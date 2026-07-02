@@ -382,3 +382,11 @@ My Traceroute (MTR): Утилита для диагностики сети. Ут
 8) Аргумент > results.txt складывает в текстовый файл в папку, откуда мы возьмем результаты. Спустя 2-5 мин можем  прекращать поиск и перейти в тестовый файл results.txt
 9) Меняем SNI на нужный, будьте внимательны к пунктуации. Старайтесь использовать более редкие варианты, и стараться избегать более популярных. 
 </details>
+
+Или на linux:
+
+    wget https://github.com/XTLS/RealiTLScanner/releases/download/v0.2.3/RealiTLScanner-linux-amd64
+
+    chmod +x RealiTLScanner-linux-amd64
+
+    ./RealiTLScanner-linux-amd64 --addr 0.0.0.0
