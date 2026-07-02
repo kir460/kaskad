@@ -79,9 +79,9 @@
 
 Port 22102
 
-Найдите строку "PermitRootLogin yes" и замените её на "PermitRootLogin no", 
+Строку "PermitRootLogin yes" заменить на "PermitRootLogin no" или  "PermitRootLogin prohibit-password" root может войти только по SSH-ключу
 
-При необходимости измените "PasswordAuthentication yes" на "PasswordAuthentication no"
+При необходимости изменить "PasswordAuthentication yes" на "PasswordAuthentication no"
 
 Перезапуск службы SSH для применения изменений
 
